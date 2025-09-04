@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #F5ADFF;
+  color:#740082;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a{
+  color:#B1F2BC;
+  text-decoration: none;
+  transition: all ease 1s;
+}
+
+a[href$=".pdf"]{
+  color:hotpink;
+}
+
+a:hover{
+  color: blueviolet;
+  text-decoration: underline;
+  transition: all ease 1s;
+}
+
+a:hover:after{
+  content:"😲";
+}
+
+h1{
+  font-size: calc(3rem + 5vw);
+}
+
+#bloque {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    margin: auto;
+    padding: 1%;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 1rem;
+    box-shadow: 0 0 30px white;
+    z-index: 9999;
+}
+
+/*position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(90% / 4rem);
+    padding: 2rem;
+    margin: auto;
+    background: rgba(216, 191, 216, 0.9);
+    border-radius: 1rem;
+    box-shadow: 0 0 30px white;
+    z-index: 9999;
+}
+*/
+
+.titulo {
+  font-family: "Comic Relief", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ajuste {
+  font-size: 120%;
+}
+/*
+canvas {
+  display: block;
+}
+*/
